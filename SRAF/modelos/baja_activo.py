@@ -6,4 +6,4 @@ class BajaActivo():
         self.descripcion  = descripcion
         
     def __str__(self):
-            return f"[{self.id_sede}] {self.fecha_baja} {self.motivo} {self.__descripcion}"
+            return f"[{self.id_baja}] {self.fecha_baja} {self.motivo} {self.__descripcion}"

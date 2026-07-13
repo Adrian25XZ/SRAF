@@ -7,4 +7,4 @@ class Activo():
         self.modelo                   = modelo
         self.
     def __str__(self):
-        return f"[{self.id_sede}] {self.nombre} {self.descripcion}"
+        return f"[{self.id_activo}] {self.nombre} {self.descripcion}"
