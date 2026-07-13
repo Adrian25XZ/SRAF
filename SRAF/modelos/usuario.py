@@ -12,4 +12,4 @@ class usuario():
         self.__ultimo_acceso    = None
         
     def __str__(self):
-            return f"[{self.nombres}] {self.apellidos} {self.__nombre_usuario} {self.correo} {self.__contraseña} {self.rol} {self.estado}"
+            return f"[{self.nombres}] {self.apellidos} {self.__nombre_usuario} {self.correo} {self.__contraseña} {self.rol} {self.estado} {self.fecha_creacion} {self.ultimo_acceso}"
