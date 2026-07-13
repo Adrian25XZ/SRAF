@@ -2,7 +2,7 @@ class BajaActivo():
     def __init__(self, fecha_baja, motivo, descripcion):
         self.__id_baja      = None
         self.__fecha_baja   = fecha_baja
-        self.__motivo       = None
+        self.__motivo       = motivo
         self.__descripcion  = descripcion
         
     def __str__(self):
