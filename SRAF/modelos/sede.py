@@ -7,3 +7,25 @@ class Sede():
     
     def __str__(self):
         return f"[{self.id_sede}] {self.nombre} {self.direccion} {self.ciudad}"
+    
+    def to_dict(self):
+        
+        return{
+            "id": self.id,
+            "nombre": self.nombre,
+            "direccion": self.direccion,
+            "ciudad": self.ciudad
+        }
+        
+    @classmethod
+    def from_dict(cls,datos):
+        
+        sede = cls(
+            datos["nombre"],
+            datos["direccion"],
+            datos["ciudad"]
+        )
+        
+        sede.id = datos["id"]
+        
+        return sede
