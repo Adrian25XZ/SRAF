@@ -62,3 +62,5 @@ def from_dict(cls,datos):
     )
 
     activo.id_activo = datos["id_activo"]
+    
+    return activo
