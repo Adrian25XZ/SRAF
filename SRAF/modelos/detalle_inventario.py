@@ -11,11 +11,11 @@ class DetalleInventario:
             
     def to_dict(self):
         return{
-            "id_detalle":   self.id_detalle,
+            "id_detalle":       self.id_detalle,
             "id_inventiaro":    self.id_inventario,
             "id_activo":        self.id_activo,
             "encontrado":       self.encontrado,
-            "observacion":        self.observacion
+            "observacion":      self.observacion
         }
         
     @classmethod
